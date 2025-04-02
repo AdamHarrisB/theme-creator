@@ -29,3 +29,6 @@ export const initialColors = [
     contrastText: "#FFFFFF",
   }, // Lighter charcoal
 ];
+
+//an array with nested objects
+//imported to App.jsx
