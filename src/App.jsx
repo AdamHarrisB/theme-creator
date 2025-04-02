@@ -5,8 +5,21 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Theme Creator also messing with this to see if it displays</h1>
-
+      <h1>Theme Creator</h1>
+      <div>
+        <h2>Add a Color</h2>
+        <form>
+          <label htmlFor="newRole">Role</label>
+          <input id="newRole" type="text"></input>
+          <label htmlFor="newHex">Hex</label>
+          <input id="newHex"></input>
+          <input id="colorNewHex" type="color"></input>
+          <label htmlFor="newContrast">Contrast Text</label>
+          <input id="newContrast"></input>
+          <button>Add Color</button>
+        </form>
+      </div>
+    
       {initialColors.map((color) => {
         return <Color key={color.id} color={color} />;
       })}
