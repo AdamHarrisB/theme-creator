@@ -15,3 +15,11 @@ function App() {
 }
 
 export default App;
+
+//imports the array of objects in colors.js and the function color in jsx
+
+/* 
+TASK: 
+Map color cards for each color in the theme. 
+That is done here.
+*/
