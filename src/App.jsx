@@ -8,7 +8,7 @@ function App() {
       <h1>Theme Creator</h1>
       <div>
         <h2>Add a Color</h2>
-        <form>
+        <form id="colorForm">
           <label htmlFor="newRole">Role</label>
           <input id="newRole" type="text"></input>
           <label htmlFor="newHex">Hex</label>

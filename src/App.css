@@ -2,3 +2,9 @@ body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   padding: 10px;
 }
+
+#colorForm {
+  display: flexbox;
+  flex-direction: column;
+  color: blue;
+}
