@@ -3,8 +3,41 @@ body {
   padding: 10px;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+h2 {
+  margin-left: 3vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
 #colorForm {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
-  color: blue;
+  background-color: lightgray;
+  margin: 0px 10px;
+  padding: 5px;
+  position: sticky
+}
+
+.colorLabel {
+  padding: 5px;
+}
+
+#colorNewHex,
+#colorNewContrast {
+  margin: 10px;
+}
+
+#newHex,
+#newContrast {
+  width: 6em;
+}
+
+button {
+  align-self: center;
+  width: 30vw;
 }
