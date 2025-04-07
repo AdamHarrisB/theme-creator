@@ -11,7 +11,7 @@ export default function Color({ color }) {
     >
       <h3 className="color-card-headline">{color.hex}</h3>
       <h4>{color.role}</h4>
-      <p>contrast -messing with this to see what happens: {color.contrastText}</p>
+      <p>contrast: {color.contrastText}</p>
     </div>
   );
 }
