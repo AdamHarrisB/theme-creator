@@ -5,9 +5,9 @@ import { uid } from "uid";
 //2. make the component dynamic
 //3. it needs to have an input element
 
-export default function AdamColorForm({
-    onSubmitColor}) {
-    const defaultFormData = { role: "Enter role", hex: "#000000", contrastText: "#000000"};
+export default function AdamColorForm({ 
+    onSubmitColor }) {
+    const defaultFormData = {role: "Enter role", hex: "#000000", contrastText: "#000000"};
     function handleSubmit(event) {
     event.preventDefault();
     const formData = new FormData(event.target);

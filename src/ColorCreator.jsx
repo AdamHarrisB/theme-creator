@@ -4,7 +4,7 @@ import ColorForm from './ColorForm';
 function ColorCreator() {
     const [colors, setColors] = useState([]);  
     const handleSubmitColor = (colorData) => {
-      // Add the new color data to the colors array
+      // Add the new color data to the colors array using spread syntax
       setColors((prevColors) => [...prevColors, colorData]);
     };
   

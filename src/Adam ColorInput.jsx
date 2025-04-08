@@ -18,5 +18,5 @@ export default function AdamColorInput({ id, defaultValue}) {
         />
         <input type="color" value={inputValue} onChange={handleInputValue} />
       </>
-    )
+    );
 }

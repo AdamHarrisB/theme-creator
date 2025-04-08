@@ -9,12 +9,13 @@ function App() {
   function handleCreateColor(newColor) {
     setColors([newColor, ...colors]);
   }
+  const handleRemoveColor = (id)
   return (
     <>
       <h1>Theme Creator</h1>
       <AdamColorForm onSubmitColor={handleCreateColor}/>
       {colors.map((color) => {
-        return <Color key={color.id} color={color} />;
+        <Color key={color.id} color={color} onDelete={() => handleRemoveColor(color.id)} />
       })}
     </>
   );
